@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="ModernUINavigationApp1.BasicPage2"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid Style="{StaticResource ContentRoot}">
+        <ScrollViewer/>
+        <Button x:Name="button" Content=" Generate" Click="onClick" Margin="76.292,42.755,74.867,0" Height="23.516" VerticalAlignment="Top" HorizontalAlignment="Center" Width="116.841"/>
+        <TextBlock x:Name="textBlock" TextWrapping="Wrap" Height="19.952" Margin="47.03,83.372,46.386,0" VerticalAlignment="Top" TextAlignment="Center" FlowDirection="RightToLeft"></TextBlock>
+        <TextBlock x:Name="textBlock1" TextWrapping="Wrap" Margin="0,108.324,0,19.491" FlowDirection="RightToLeft" TextAlignment="Center"/>
+    </Grid>
+</UserControl>

@@ -8,7 +8,7 @@
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid Style="{StaticResource ContentRoot}">
         <ScrollViewer/>
-        <Button x:Name="button" Content=" Generate" Click="onClick" Margin="76.292,42.755,74.867,0" Height="23.516" VerticalAlignment="Top" HorizontalAlignment="Center" Width="116.841"/>
+        <Button x:Name="button" Content="חיפוש" Click="onClick" Margin="76.292,42.755,74.867,0" Height="23.516" VerticalAlignment="Top" HorizontalAlignment="Center" Width="116.841" FlowDirection="RightToLeft"/>
         <TextBlock x:Name="textBlock" TextWrapping="Wrap" Height="19.952" Margin="47.03,83.372,46.386,0" VerticalAlignment="Top" TextAlignment="Center" FlowDirection="RightToLeft"></TextBlock>
         <TextBlock x:Name="textBlock1" TextWrapping="Wrap" Margin="0,108.324,0,19.491" FlowDirection="RightToLeft" TextAlignment="Center"/>
     </Grid>

@@ -9,10 +9,10 @@
     <Grid Style="{StaticResource ContentRoot}">
         <ScrollViewer>
             <StackPanel MinWidth="200">
-                <TextBlock Text="English word to Hebrew Finder" Style="{StaticResource Heading2}" />
+                <TextBlock Style="{StaticResource Heading2}" FrameworkElement.FlowDirection="RightToLeft" ><Run FlowDirection="RightToLeft" Text="חיפוש חידוש למילים לועזיות"/></TextBlock>
                 <TextBlock Margin="0,0,0,10" ><LineBreak/><LineBreak/><LineBreak/></TextBlock>
                 <TextBox x:Name="textBox" Height="23.907" TextWrapping="Wrap" Width="156.056" Margin="0,0,0,10" FlowDirection="RightToLeft"/>
-                <Button x:Name="button" Content="Find Me" Height="24.228" Width="83.373" Margin="0,0,0,5" Click="onClick"/>
+                <Button x:Name="button" Content="לחדש" Height="24.228" Width="83.373" Margin="0,0,0,5" Click="onClick" FlowDirection="RightToLeft"/>
                 <TextBlock x:Name="textBlock" Height="106.636" TextWrapping="Wrap" Width="257.245" FrameworkElement.FlowDirection="RightToLeft" Margin="0,0,0,5"/>
             </StackPanel>
         </ScrollViewer>

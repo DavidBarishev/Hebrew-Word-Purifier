@@ -8,8 +8,8 @@
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid Style="{StaticResource ContentRoot}">
         <ScrollViewer/>
-        <TextBlock Text="Search by Letter" Style="{StaticResource Heading2}" VerticalAlignment="Top" d:LayoutOverrides="Width" />
-        <ComboBox x:Name="comboBox" Height="24.941" Width="88.36" Margin="17.135,43.874,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" BorderThickness="1,1,0,1">
+        <TextBlock Style="{StaticResource Heading2}" VerticalAlignment="Top" d:LayoutOverrides="Width" FrameworkElement.FlowDirection="RightToLeft" ><Run FlowDirection="RightToLeft" Text="חיפוש לפי אות"/></TextBlock>
+        <ComboBox x:Name="comboBox" Height="24.941" Width="88.36" Margin="17.135,43.874,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" BorderThickness="1,1,0,1" FlowDirection="RightToLeft">
             <ComboBoxItem Content="א"/>
             <ComboBoxItem Content="ב"/>
             <ComboBoxItem Content="ג"/>
@@ -33,7 +33,7 @@
             <ComboBoxItem Content="ש"/>
             <ComboBoxItem Content="ת"/>
         </ComboBox>
-        <Button x:Name="button" Content="Search" Height="24.941" Margin="0,43.874,29.605,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="94.776" Click="onClick"/>
+        <Button x:Name="button" Content="חיפוש" Height="24.941" Margin="0,43.874,29.605,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="94.776" Click="onClick" FlowDirection="RightToLeft"/>
         <ListView x:Name="listView" BorderThickness="0" Margin="-6.736,113.459,23.201,10" FlowDirection="RightToLeft">
             <ListView.View>
                 <GridView>

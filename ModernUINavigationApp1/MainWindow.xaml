@@ -9,10 +9,10 @@
     <mui:ModernWindow.MenuLinkGroups>
         <mui:LinkGroup DisplayName="welcome">
             <mui:LinkGroup.Links>
-                <mui:Link DisplayName="Home" Source="/Pages/Home.xaml" />
-                <mui:Link DisplayName="Converter" Source="/Pages/BasicPage1.xaml" />
-                <mui:Link DisplayName="Random" Source="/Pages/BasicPage2.xaml" />
-                <mui:Link DisplayName="Letter" Source="/Pages/BasicPage3.xaml" />
+                <mui:Link DisplayName="בית" Source="/Pages/Home.xaml" />
+                <mui:Link DisplayName="ממיר" Source="/Pages/BasicPage1.xaml" />
+                <mui:Link DisplayName="אקראי" Source="/Pages/BasicPage2.xaml" />
+                <mui:Link DisplayName="ממיר לפי אות" Source="/Pages/BasicPage3.xaml" />
             </mui:LinkGroup.Links>
         </mui:LinkGroup>
         <mui:LinkGroup DisplayName="settings" GroupKey="settings">
